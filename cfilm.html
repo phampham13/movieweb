@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>MyFilm</title>
+	<link rel="icon" href="image/logo.jpg" type="image/jpg">
+</head>
+<body background="image/background.jpg">
+   <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+	<div id = "outer">
+		<div class="logo-div">
+			<a href="index.html">
+					<img class="logo-img" src="image/logo.jpg">
+					<h1 class="logo-name">MyFilm</h1>
+			</a>
+		</div>
+		<div class="login-signup-div">
+			<h2 style="color: white; font-family: cursive; "><a href="login.html" style="color: white;">Login</a> | <a href="sign.html"style="color: white;">signup</a></h2>
+		</div>
+
+		<div id="menu">
+			<h3> 
+				<div id="index"><a href="index.html"style="color: white;"><center>Home</center>  </a></div>
+				<div id="index"><a href="holly.html"style="color: white;"><center>Hollywood</center>  </a></div>
+				<div id="index"><a href="kfilm.html"style="color: white;"><center>Kfilm</center>  </a></div>
+				<div id="index" class="glow"><a href="cfilm.html"style="color: white;"><center>Cfilm</center>  </a></div>
+				<div id="index"><a href="about.html"style="color: white;"><center>About Us</center>  </a></div>
+			</h3>
+		</div>
+
+		<div id="menu" style="margin-top: 10px">
+			<div class="search-bar-div">
+				<input class="search-bar" type="text" placeholder="search here">
+				<button class="search-btn" type="button">Search</button>
+			</div>
+		</div>
+
+		<div class="content-div">
+			<div class="left-side-content">
+				<div class="content-title">Movies and Dramas</div>
+				<div class="content-body">
+					<div id="cont">
+						<a href="https://openload.co/f/DtPjN7bNMFA">
+						<img src="image/honlecuaem.jpg" class="card-img" title="honlecuaem">
+						</a>
+						<div id="inner"> 
+							<div class="card-title"> My Love </div>
+							<div class="card-content"> 
+							My Love revolves around the love story of Chau Tieu Te - a swimmer and Vuong Vinh Tu - a new transfer student.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="rightside-bar">
+				<div class="content-title">Songs</div>
+				<div class="list-items">
+					<ul class="list-style">
+						<li class="list-row-style">Hate & Kill</li>
+						<li class="list-row-style">2018</li>
+						<li class="list-row-style">Travel Delays</li>
+						<li class="list-row-style">2018</li>
+						<li class="list-row-style">The Avengers</li>
+						<li class="list-row-style">2018</li>
+						<li class="list-row-style">Undying Fidelity</li>
+						<li class="list-row-style">2018</li>
+						<li class="list-row-style">You are my everything</li>
+						<li class="list-row-style">2016</li>
+						<li class="list-row-style">Once again</li>
+						<li class="list-row-style">2016</li>
+						<li class="list-row-style">Always</li>
+						<li class="list-row-style">2016</li>
+						<li class="list-row-style">Talk Love</li>
+						<li class="list-row-style">2016</li>
+						<li class="list-row-style">Everytime</li>
+						<li class="list-row-style">2016</li>
+						<li class="list-row-style">Discovery</li>
+						<li class="list-row-style">2019</li>
+						<li class="list-row-style">The Warrior Within</li>
+						<li class="list-row-style">2019</li>
+						<li class="list-row-style">A Dark Past</li>
+						<li class="list-row-style">2019</li>
+						<li class="list-row-style">Blue eyes- yo yo honey singh</li>
+						<li class="list-row-style">2015</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="foot">
+			<a href="#" class="footer-content">FAQs</a>
+			<a href="#" class="footer-content">contact us</a>				
+			<a href="#" class="footer-content"> copyrights</a>
+			<a href="#" class="footer-content"r>Help</a>
+			<a href="#" class="footer-content">Feedback</a>
+		</div>
+
+	</div>
+
+</body>
+<script>
+	var mybutton = document.getElementById("myBtn");
+
+	window.onscroll = function() {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+</script>
+	
+</html>
