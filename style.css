@@ -208,9 +208,7 @@ fieldset {
 	margin-right: 43px;
 }
 
-#index
-{
-
+#index{
   border-radius: 30px;
   padding: 10px; 
   width: 8%;
@@ -220,22 +218,19 @@ fieldset {
   float: left;
 }
 
-#index:hover
-{
+#index:hover{
 	background: grey;
 }
 
-#menu
-{
+#menu{
 	height: 5%; 
 	width: 100%; 
 	float: left;
-	
 }
 
 
 #foot {
-	background: rgb(41, 39, 39);
+	background: rgb(74, 69, 69);
     height: 147px;
     width: 100%;
     float: left;
@@ -244,14 +239,12 @@ fieldset {
 }
 
 
-h3
-{
+h3{
 	color: white; 
 	font-family: cursive;
 }
 
-#cont
-{
+#cont{
 	height: 100%;
 	width: 45%;
 	border-radius: 5% 5% 5% 5%;
@@ -264,25 +257,25 @@ h3
   	margin-top: 30px;
 
 }
-#cont:hover
-{
+
+#cont:hover{
 	background: red;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
 
-#inner
-{
+#inner{
 	padding: 2px 16px;
 }
-a
-{
+
+a{
 	text-decoration: none;
 }
-h2
-{
+
+h2{
 	color: white;
 }
+
 #myBtn {
 	display: none;
     position: fixed;
